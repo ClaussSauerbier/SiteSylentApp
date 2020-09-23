@@ -35,10 +35,11 @@ figure.fotoLegenda:hover figcaption{
     opacity: 100%;
 }
 nav#menu {
-    text-align: justify;
+    
     display: block;
 }
 nav#menu ul{
+    text-align: justify;
     list-style: none;
     text-transform: uppercase;
     position: absolute;
