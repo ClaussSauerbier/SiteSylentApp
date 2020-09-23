@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Lora&display=swap');
 
 body{
     background-color: rgb(228, 228, 228);
@@ -7,15 +10,19 @@ body{
 }
 body h1{
     text-shadow: 1px 1px 3px black;
+    color: rgb(31, 105, 59);
 }
 body h2{
     text-shadow: 1px 1px 3px black;
+    color: rgb(31, 105, 59);
 }
 body h3{
     text-shadow: 1px 1px 3px black;
+    color: rgb(31, 105, 59);
 }
 body p{
-    text-shadow: 1px 1px 3px black;
+    color: rgb(4, 58, 23);
+
 }
 div#interface{
     width: 800px;
@@ -27,7 +34,8 @@ div#interface{
 p{
     text-align: justify;
     text-indent: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'IM Fell English SC', serif;
+    font-family: 'Lora', serif;
 }
 header#cabecalho img#icone{
     position: absolute;
@@ -36,12 +44,13 @@ header#cabecalho img#icone{
 }
 header#cabecalho {
     border-bottom: 1px black solid;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 header#cabecalho h1{
+    font-family: 'Frijole', cursive;
     font-size: 30px;
     color: darkgreen;
-    text-shadow: 1px 1px 10px rgb(30, 31, 31);
+    text-shadow: 1px 1px 1px rgb(30, 31, 31);
     padding: 0px;
     margin-bottom: 0px;
 }
@@ -50,6 +59,7 @@ header#cabecalho h2{
     text-shadow: 1px 1px 10px rgb(11, 12, 12);
     padding: 0px;
     margin-top: 0px;
+    font-family: 'Bungee Shade', cursive;
 }
 
 
