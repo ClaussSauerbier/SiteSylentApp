@@ -29,7 +29,7 @@ div#interface{
     background-color: rgb(203, 236, 195);
     margin: 60px auto 10px auto;
     box-shadow: 0px 0px 10px black;
-    padding: 10px;
+    padding: 30px;
 }
 p{
     text-align: justify;
@@ -95,7 +95,7 @@ nav#menu {
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
+    position: relative;
     top: -10px;
     left: auto;
 }
@@ -114,7 +114,7 @@ nav#menu h1{
     display: none;
 }
 nav#menu a{
-    color: black;
+    color: rgb(18, 105, 11);
     text-decoration: none;
 }
 nav#menu a:hover{
