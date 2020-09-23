@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
 body{
-    background-color: white;
+    background-color: rgb(228, 228, 228);
     color: rgba(0, 0, 0, 1);
 }
 div#interface{
     width: 800px;
+    background-color: cornsilk;
 }
 p{
     text-align: justify;
