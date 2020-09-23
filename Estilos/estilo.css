@@ -21,6 +21,9 @@ header#cabecalho img#icone{
     left: 800px;
     top: -30px;
 }
+header#cabecalho {
+    border-bottom: 1px black solid;
+}
 
 /* Formatação de imagens com legendas */
 figure.fotoLegenda{
@@ -52,7 +55,6 @@ nav#menu {
     display: block;
 }
 nav#menu ul{
-    text-align: justify;
     list-style: none;
     text-transform: uppercase;
     position: absolute;
