@@ -4,6 +4,9 @@ body{
     background-color: white;
     color: rgba(0, 0, 0, 1);
 }
+div#interface{
+    width: 800px;
+}
 p{
     text-align: justify;
     text-indent: 50px;
@@ -44,7 +47,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -10px;
-    left: 300px;
+    left: 200px;
 }
 nav#menu li{
     display: inline-block;
